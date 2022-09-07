@@ -1,0 +1,24 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .container-circle {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-circle {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .nav-menu {
+    position: absolute;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 500%;
+    right: 0;
+
+  }
+}
